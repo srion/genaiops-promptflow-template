@@ -31,7 +31,7 @@ def prepare_data(blob_service_client,
                  target_container_name,
                  source_blob,
                  target_data_assets):
-    print('Data processing component')
+    print('Data processing component by SR  ')
 
     source_blob_client = blob_service_client.get_blob_client(container=source_container_name,
                                                              blob=source_blob)
